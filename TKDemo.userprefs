@@ -1,5 +1,14 @@
-﻿<Properties StartupConfiguration="{1BEC06D1-D4BD-4895-82B2-9152CED336AC}|Default">
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{05FF3676-81D4-4677-938B-86DA6BFA50E5}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TKDemo Status">
+    <Files>
+      <File FileName="Droid/MainActivity.cs" Line="21" Column="20" />
+      <File FileName="TKDemo/MapPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TKDemo/App.xaml.cs" Line="19" Column="13" />
+      <File FileName="iOS/AppDelegate.cs" Line="7" Column="31" />
+      <File FileName="Droid/MyMapRenderer.cs" Line="22" Column="18" />
+      <File FileName="TKDemo Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -8,5 +17,6 @@
   <MonoDevelop.Ide.ItemProperties.TKDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5F5055D0-B9A2-41BD-AAE2-AD581B593660" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.TKDemo.iOS>
+  <MonoDevelop.Ide.ItemProperties.TKDemo.Droid PreferredExecutionTarget="Android.58e239740cd6e709" />
   <MultiItemStartupConfigurations />
 </Properties>
