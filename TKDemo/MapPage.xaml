@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TKDemo.MapPage" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" xmlns:customMaps="clr-namespace:TK.CustomMap;assembly=TK.CustomMap">
     <ContentPage.Content>
-        <Grid VerticalOptions="Fill" HorizontalOptions="Fill">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="auto" />
-            </Grid.RowDefinitions>
-            <customMaps:TKCustomMap x:Name="mapView" Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsVisible="False" BackgroundColor="Aqua" />
-            <maps:Map x:Name="mapViewNative" Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" MapType="Hybrid" IsVisible="False" BackgroundColor="Gray" />
-            <Button x:Name="nextBtn" Grid.Row="1" Text="Next" HorizontalOptions="End" VerticalOptions="End" />
-        </Grid>
+        <customMaps:TKCustomMap x:Name="mapViewTK" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsVisible="true" IsShowingUser="True" CalloutClicked="Handle_CalloutClicked" MapClicked="Handle_MapClicked" />
+        <!--<maps:Map x:Name="mapViewNative" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" MapType="Street" IsVisible="true"  />-->
     </ContentPage.Content>
 </ContentPage>

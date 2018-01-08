@@ -53,12 +53,6 @@
     <Reference Include="GoogleMapsUtilityBinding">
       <HintPath>..\packages\Xamarin.Android.Maps.Utils.0.5.0\lib\MonoAndroid10\GoogleMapsUtilityBinding.dll</HintPath>
     </Reference>
-    <Reference Include="TK.CustomMap.Android">
-      <HintPath>..\packages\TK.CustomMap.2.0.0-pre3\lib\MonoAndroid10\TK.CustomMap.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="TK.CustomMap">
-      <HintPath>..\packages\TK.CustomMap.2.0.0-pre3\lib\MonoAndroid10\TK.CustomMap.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Maps.Android">
       <HintPath>..\packages\Xamarin.Forms.Maps.2.5.0.121934\lib\MonoAndroid10\Xamarin.Forms.Maps.Android.dll</HintPath>
     </Reference>
@@ -154,6 +148,12 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="TK.CustomMap.Android">
+      <HintPath>..\packages\TK.CustomMap.2.0.0-pre3\lib\MonoAndroid10\TK.CustomMap.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="TK.CustomMap">
+      <HintPath>..\packages\TK.CustomMap.2.0.0-pre3\lib\MonoAndroid10\TK.CustomMap.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
