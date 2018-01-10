@@ -115,6 +115,18 @@
     <Reference Include="TK.CustomMap.iOSUnified">
       <HintPath>..\packages\TK.CustomMap.2.0.0-pre3\lib\Xamarin.iOS10\TK.CustomMap.iOSUnified.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Permissions.Abstractions">
+      <HintPath>..\packages\Plugin.Permissions.2.2.1\lib\Xamarin.iOS10\Plugin.Permissions.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Permissions">
+      <HintPath>..\packages\Plugin.Permissions.2.2.1\lib\Xamarin.iOS10\Plugin.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.4.2.0\lib\Xamarin.iOS10\Plugin.Geolocator.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.4.2.0\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TKDemo\TKDemo.csproj">
@@ -125,9 +137,24 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\iconDirection.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\iconDirection.imageset\ic_directions.png" />
+    <ImageAsset Include="Assets.xcassets\iconDirection.imageset\ic_directions%402x.png" />
+    <ImageAsset Include="Assets.xcassets\iconDirection.imageset\ic_directions%403x.png" />
+    <ImageAsset Include="Assets.xcassets\logoGoogle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logoGoogle.imageset\powered_by_google_on_white.png" />
+    <ImageAsset Include="Assets.xcassets\logoGoogle.imageset\powered_by_google_on_white%402x.png" />
+    <ImageAsset Include="Assets.xcassets\logoGoogle.imageset\powered_by_google_on_white%403x.png" />
+    <ImageAsset Include="Assets.xcassets\iconPin.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\iconPin.imageset\ic_place.png" />
+    <ImageAsset Include="Assets.xcassets\iconPin.imageset\ic_place%402x.png" />
+    <ImageAsset Include="Assets.xcassets\iconPin.imageset\ic_place%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\iconDirection.imageset\" />
+    <Folder Include="Assets.xcassets\logoGoogle.imageset\" />
+    <Folder Include="Assets.xcassets\iconPin.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -140,6 +167,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="MyMapRenderer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.122203\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.122203\build\netstandard1.0\Xamarin.Forms.targets')" />

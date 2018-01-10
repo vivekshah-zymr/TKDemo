@@ -37,6 +37,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="PinListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HtmlInstructionsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRoutePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -50,6 +62,20 @@
       <DependentUpon>MapPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyMap.cs" />
+    <Compile Include="PlacesAutoComplete.cs" />
+    <Compile Include="ViewModels\SampleViewModel.cs" />
+    <Compile Include="PinListPage.xaml.cs">
+      <DependentUpon>PinListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomPins\RoutePin.cs" />
+    <Compile Include="HtmlInstructionsPage.xaml.cs">
+      <DependentUpon>HtmlInstructionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\HtmlInstructionsViewModel.cs" />
+    <Compile Include="AddRoutePage.xaml.cs">
+      <DependentUpon>AddRoutePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AddRouteViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -79,9 +105,19 @@
     <Reference Include="TK.CustomMap">
       <HintPath>..\packages\TK.CustomMap.2.0.0-pre3\lib\netstandard1.1\TK.CustomMap.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Geolocator.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.4.2.0\lib\netstandard1.0\Plugin.Geolocator.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.4.2.0\lib\netstandard1.0\Plugin.Geolocator.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="CustomPins\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets')" />

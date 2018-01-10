@@ -1,12 +1,20 @@
-﻿<Properties StartupConfiguration="{1BEC06D1-D4BD-4895-82B2-9152CED336AC}|Default" GitUserInfo="UsingGIT" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{1BEC06D1-D4BD-4895-82B2-9152CED336AC}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="TKDemo Status">
     <Files>
+      <File FileName="TKDemo/PlacesAutoComplete.cs" Line="221" Column="59" />
+      <File FileName="TKDemo/MapPage.xaml.cs" Line="68" Column="104" />
       <File FileName="TKDemo Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/vivek.shah/Desktop/Xamarin/Demos/TKDemo/iOS/MyMapRenderer.cs" relfile="iOS/MyMapRenderer.cs" line="20" column="1" />
+      <Breakpoint enabled="false" file="/Users/vivek.shah/Desktop/Xamarin/Demos/TKDemo/iOS/MyMapRenderer.cs" relfile="iOS/MyMapRenderer.cs" line="33" column="1" />
+      <Breakpoint enabled="false" file="/Users/vivek.shah/Desktop/Xamarin/Demos/TKDemo/TKDemo/ViewModels/AddRouteViewModel.cs" relfile="TKDemo/ViewModels/AddRouteViewModel.cs" line="42" column="1" />
+      <Breakpoint file="/Users/vivek.shah/Desktop/Xamarin/Demos/TKDemo/TKDemo/PlacesAutoComplete.cs" relfile="TKDemo/PlacesAutoComplete.cs" line="221" column="1" />
+      <Breakpoint file="/Users/vivek.shah/Desktop/Xamarin/Demos/TKDemo/TKDemo/PlacesAutoComplete.cs" relfile="TKDemo/PlacesAutoComplete.cs" line="228" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TKDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.b58b30ac240711ae8db1d602675fc28431f005b6" automaticSigning="False">
